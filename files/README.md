@@ -1,4 +1,11 @@
 # Alex Ziskind's YouTube Channel Files
 
-<a href="/files/brand-integrations">Brand Integrations</a>
-<a href="/files/sponsorships">Sponsorships</a>
+<ul>
+    <li>
+        <a href="/home/files/brand-integrations">Brand Integrations</a>
+    </li>
+    <li>
+        <a href="/home/files/sponsorships">Sponsorships</a>
+    </li>
+
+</ul>
