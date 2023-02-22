@@ -5,10 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1, initial-scale=1.0">
     <title>Alex Ziskind's YouTube Channel Brand Integrations</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="file_styles.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
     
-    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTbSeRTv5YEfM4Xe6Ao5oJJWj1r9_HTq8KcSbxi8b9LiIq4GK97z66vFlQJZ9MVhTWzW-eS4iD5pi9P/pub?embedded=true"></iframe>
+    <h1>Alex Ziskind's YouTube Channel Brand Integrations</h1>
+
+    <!-- iframe hosting an embedded google doc that spans the entire width and height of the doc -->
+    <div class="gdocframecontainer">
+        <iframe class="gdocframe" src="https://docs.google.com/document/d/e/2PACX-1vTbSeRTv5YEfM4Xe6Ao5oJJWj1r9_HTq8KcSbxi8b9LiIq4GK97z66vFlQJZ9MVhTWzW-eS4iD5pi9P/pub?embedded=true" style="width: 100%; height: 100%;"></iframe>
+    </div>
+
+
+    <script>
+        $(document).ready(function(){
+            //const height = $(window).height();
+            //$('.gdocframe').css('height', height - 200);
+        });
+    </script>
 
 </body>
 </html>
